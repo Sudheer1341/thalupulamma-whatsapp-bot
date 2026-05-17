@@ -4,6 +4,8 @@ const app = express();
 
 app.use(express.json());
 
+const VERIFY_TOKEN = "thalupulamma123"
+
 app.get("/", (req, res) => {
     res.send("Temple Bot Running");
 });
